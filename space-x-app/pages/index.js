@@ -22,7 +22,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://www.spacex.com/" target="_blank">SpaceXLaunchApp!</a>
+          Welcome to <a href="https://www.spacex.com/" rel="noreferrer" target="_blank">SpaceXLaunchApp!</a>
         </h1>
         <Launches />
       </main>
