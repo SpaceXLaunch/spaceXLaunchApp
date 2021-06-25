@@ -13,11 +13,11 @@ Open Source REST API for launch, rocket, core, capsule, starlink, launchpad, and
 <a href="https://en.wikipedia.org/wiki/Representational_state_transfer"><img src="https://img.shields.io/badge/interface-REST-brightgreen.svg?longCache=true&style=flat-square"></a>
 </p>
 
-<h4 align="center">
+<h5 align="center">
   <i>
     We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Space Exploration Technologies Corp (SpaceX), or any of its subsidiaries or its affiliates. The names SpaceX as well as related names, marks, emblems and images are registered trademarks of their respective owners.
   </i>
-</h4>
+</h5>
 
 <h3 align="center">
 <a href="docs/v4/README.md">Docs</a> - <a href="docs/clients.md">API Clients</a> - <a href="docs/apps.md">Apps</a> - <a href="https://status.spacexdata.com">Status</a> - <a href="https://backups.spacexdata.com">Database Dumps</a>

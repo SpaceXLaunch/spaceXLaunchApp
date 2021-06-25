@@ -5,14 +5,15 @@ import LaunchItem from './LaunchItem.jsx';
 
 const LAUNCHES_QUERY = gql`
   query LaunchesQuery {
-      launches {
-          id
-          flight_number
-          name
-          date_local
-          upcoming 
-          success
-      }
+    launches {
+        id
+        flight_number
+        name
+        date_local
+        upcoming 
+        success
+        rocket
+    }
   }
 `
 
@@ -39,7 +40,7 @@ class Launches extends Component {
                 {
                     ({ loading, error, data }) => {
                         if (loading) {
-                            return <h4>Loading....</h4>
+                            return <h5>Loading....</h5>
                         }
                         if (error) {
                             console.log(error)
@@ -52,11 +53,9 @@ class Launches extends Component {
                                 })
                             }
                         </Fragment>
-
                         } else {
                             return null
-                        }
-                        
+                        } 
                     }
                 }
             </Query>
