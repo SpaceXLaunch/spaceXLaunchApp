@@ -22,7 +22,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://www.spacex.com/" rel="noreferrer" target="_blank">SpaceXLaunchApp!</a>
+          <a href="https://www.spacex.com/" rel="noreferrer" target="_blank"><Image alt="" src={"https://logodix.com/logo/359.png"} width= "500px" height= "300px" style={{backgroundColor: "transparent"}}></Image></a>
         </h1>
         <Launches />
       </main>
@@ -33,9 +33,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="https://sdtimes.com/wp-content/uploads/2020/04/1_oBm_3saYz4AI_MS6OekdFQ.png" alt="Vercel Logo" width={200} height={75}/>
           </span>
         </a>
       </footer>

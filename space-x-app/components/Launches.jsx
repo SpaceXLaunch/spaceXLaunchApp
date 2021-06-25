@@ -35,7 +35,7 @@ class Launches extends Component {
     render () {
         return (
           <Fragment>
-            <h1 className="display-4 my-3" onClick={this.handleLaunchClick}>Click To See Launches</h1>
+            <h1 className="display-4 my-3" style={{border: "solid white 1px", borderRadius: "15px", padding: "5px 15px 5px 15px", boxShadow: "3px 2px 2px white"}}onClick={this.handleLaunchClick}>Click To See Launches</h1>
             <Query query={LAUNCHES_QUERY}>
                 {
                     ({ loading, error, data }) => {
