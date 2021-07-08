@@ -11,6 +11,7 @@ const typeDefs = gql`
     upcoming: Boolean
     success: Boolean
     rocket: String
+    details: String
   }
 
   type Rocket {

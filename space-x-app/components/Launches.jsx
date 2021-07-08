@@ -13,6 +13,7 @@ const LAUNCHES_QUERY = gql`
         upcoming 
         success
         rocket
+        details
     }
   }
 `
